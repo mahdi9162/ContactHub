@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import personImg from '../../assets/man-avatar.png';
 import { PersonContext } from '../../App';
 
 const ShowContacts = () => {
@@ -24,7 +23,7 @@ const ShowContacts = () => {
                 className="mt-3 md:mt-8 mb-3 md:mb-0 md:w-96 bg-gray-100 shadow-lg rounded-2xl flex justify-center items-center gap-4 md:gap-6 "
               >
                 <figure className="w-14 h-14 mb-6 bg-gray-300 rounded-full">
-                  <img className="w-full rounded-full" src={personImg} alt="man person icon" />
+                  <img className="w-full rounded-full" src={'https://i.ibb.co.com/qMJP6yMY/man-avatar.png'} alt="man person icon" />
                 </figure>
                 <div className="my-6">
                   <h1 className="font-bold md:text-lg">{ele.name}</h1>
